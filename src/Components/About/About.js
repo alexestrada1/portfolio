@@ -28,7 +28,7 @@ const About = () => {
       </p>
       <p>
         You can reach out to me here{" "}
-        <a href="mailto:estradaalex46@gmail.com">estradaalex46@gmail.com</a>
+        <a href="mailto:estradaalex46@gmail.com" target="_blank" rel="noopener noreferrer">estradaalex46@gmail.com</a>
       </p>
       <hr />
       <h1>Skills and Tools</h1>
@@ -38,8 +38,7 @@ const About = () => {
             <div className="skill-card">
                 <img alt={skill.alt} src={skill.img}/>
                 <p>{skill.skill}</p>
-            </div>
-          
+            </div>      
         );
       })}
       </div>

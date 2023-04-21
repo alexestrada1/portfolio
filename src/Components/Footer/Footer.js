@@ -7,12 +7,20 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-links">
         <div className="footer-link">
-          <a href="https://github.com/alexestrada1?tab=repositories">
+          <a
+            href="https://github.com/alexestrada1?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img alt="Github Logo Link" src={githubLogo} />
           </a>
         </div>
         <div className="footer-link">
-          <a href="mailto:estradaalex46@gmail.com">
+          <a
+            href="mailto:estradaalex46@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img alt="Email Link" src={emailLogo} />
           </a>
         </div>
